@@ -25,4 +25,4 @@ BOARD_MKBOOTIMG_ARGS := --base 0x40078000 --pagesize 2048 --kernel_offset 0x0000
 
 ANDROID_COMMON_BUILD_MK = true
 
-TARGET_KERNEL_SOURCE := kernel/linaro/armlt/arch/arm64
+TARGET_KERNEL_SOURCE := kernel/linaro/armlt
