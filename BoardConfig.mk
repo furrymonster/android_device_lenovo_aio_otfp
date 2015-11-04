@@ -24,3 +24,5 @@ BOARD_HAS_NO_SELECT_BUTTON := false
 BOARD_MKBOOTIMG_ARGS := --base 0x40078000 --pagesize 2048 --kernel_offset 0x00008000 --ramdisk_offset 0x03f88000 --second_offset 0x00e88000 --tags_offset 0x0df88000 --board 1438595127 --cmdline bootopt=64S3,32N2,64N2
 
 ANDROID_COMMON_BUILD_MK = true
+
+TARGET_KERNEL_SOURCE := kernel/linaro/armlt/arch/arm64
