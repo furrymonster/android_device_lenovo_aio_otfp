@@ -25,4 +25,5 @@ BOARD_MKBOOTIMG_ARGS := --base 0x40078000 --pagesize 2048 --kernel_offset 0x0000
 
 ANDROID_COMMON_BUILD_MK = true
 
-TARGET_KERNEL_SOURCE := kernel/linaro/armlt
+#TARGET_KERNEL_SOURCE := kernel/linaro/armlt
+TARGET_PREBUILT_KERNEL := device/lenovo/lemon/kernel
