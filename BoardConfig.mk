@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lenovo/lemon
+LOCAL_PATH := device/lenovo/aio_otfp
 
 TARGET_NO_BOOTLOADER := true
 
@@ -26,4 +26,4 @@ BOARD_MKBOOTIMG_ARGS := --base 0x40078000 --pagesize 2048 --kernel_offset 0x0000
 ANDROID_COMMON_BUILD_MK = true
 
 #TARGET_KERNEL_SOURCE := kernel/linaro/armlt
-TARGET_PREBUILT_KERNEL := device/lenovo/lemon/kernel
+TARGET_PREBUILT_KERNEL := device/lenovo/aio_otfp/kernel

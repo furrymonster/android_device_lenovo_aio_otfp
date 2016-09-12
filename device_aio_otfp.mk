@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lenovo/lemon
+LOCAL_PATH := device/lenovo/aio_otfp
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
@@ -7,8 +7,8 @@ else
 endif
 
 PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
-PRODUCT_NAME :=lemon
-PRODUCT_DEVICE := lemon
+PRODUCT_NAME :=aio_otfp
+PRODUCT_DEVICE := aio_otfp
 
 # Set insecure for root access and device specifics
 ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \

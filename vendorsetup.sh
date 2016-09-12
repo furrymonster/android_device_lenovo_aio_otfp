@@ -1,2 +1,2 @@
-add_lunch_combo cm_lemon-eng
-add_lunch_combo cm_lemon-userdebug
+add_lunch_combo cm_aio_otfp-eng
+add_lunch_combo cm_aio_otfp-userdebug
